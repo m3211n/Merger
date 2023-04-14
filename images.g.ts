@@ -3,170 +3,214 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "image8":
-            case "tile_10_7":return img`
-. . . . . . . . . . . . 
-. . 7 7 7 7 7 7 7 7 . . 
-. 7 7 7 7 7 7 7 7 7 7 . 
-. 7 7 7 7 7 7 7 7 7 7 . 
-. 7 7 7 7 7 7 7 7 7 7 . 
-. 7 7 7 7 7 7 7 7 7 7 . 
-. 7 7 7 7 7 7 7 7 7 7 . 
-. 7 7 7 7 7 7 7 7 7 7 . 
-. 7 7 7 7 7 7 7 7 7 7 . 
-. 7 7 7 7 7 7 7 7 7 7 . 
-. . 7 7 7 7 7 7 7 7 . . 
-. . . . . . . . . . . . 
-`;
-            case "image9":
-            case "tile_10_8":return img`
-. . . . . . . . . . . . 
-. . 5 5 5 5 5 5 5 5 . . 
-. 5 5 5 5 5 5 5 5 5 5 . 
-. 5 5 5 5 5 5 5 5 5 5 . 
-. 5 5 5 5 5 5 5 5 5 5 . 
-. 5 5 5 5 5 5 5 5 5 5 . 
-. 5 5 5 5 5 5 5 5 5 5 . 
-. 5 5 5 5 5 5 5 5 5 5 . 
-. 5 5 5 5 5 5 5 5 5 5 . 
-. 5 5 5 5 5 5 5 5 5 5 . 
-. . 5 5 5 5 5 5 5 5 . . 
-. . . . . . . . . . . . 
-`;
-            case "image10":
-            case "tile_10_9":return img`
-. . . . . . . . . . . . 
-. . 4 4 4 4 4 4 4 4 . . 
-. 4 4 4 4 4 4 4 4 4 4 . 
-. 4 4 4 4 4 4 4 4 4 4 . 
-. 4 4 4 4 4 4 4 4 4 4 . 
-. 4 4 4 4 4 4 4 4 4 4 . 
-. 4 4 4 4 4 4 4 4 4 4 . 
-. 4 4 4 4 4 4 4 4 4 4 . 
-. 4 4 4 4 4 4 4 4 4 4 . 
-. 4 4 4 4 4 4 4 4 4 4 . 
-. . 4 4 4 4 4 4 4 4 . . 
-. . . . . . . . . . . . 
-`;
-            case "image11":
-            case "tile_10_10":return img`
-. . . . . . . . . . . . 
-. . . . . . . . . . . . 
-. . . . . . e e . . . . 
-. . . . . e 5 e . . . . 
-. . e e e 4 5 e e e . . 
-. . e 5 5 5 5 5 5 e . . 
-. . . e 4 5 5 4 e . . . 
-. . . e 5 4 4 5 e . . . 
-. . e 5 4 e e 4 5 e . . 
-. . e e e . . e e e . . 
-. . . . . . . . . . . . 
-. . . . . . . . . . . . 
+            case "image6":
+            case "tile_0":return img`
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d c c d d d d d d b 
+1 d d d d d d c c d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+b b b b b b b b b b b b b b b b 
 `;
             case "image1":
-            case "tile_10_0":return img`
-. . 1 1 1 1 1 1 1 1 . . 
-. 1 1 1 1 1 1 1 1 1 1 . 
-1 1 1 1 1 1 1 1 1 1 1 d 
-1 1 1 1 1 1 1 1 1 1 1 d 
-1 1 1 1 1 1 1 1 1 1 1 d 
-1 1 1 1 1 1 1 1 1 1 1 d 
-1 1 1 1 1 1 1 1 1 1 1 d 
-1 1 1 1 1 1 1 1 1 1 1 d 
-1 1 1 1 1 1 1 1 1 1 1 d 
-1 1 1 1 1 1 1 1 1 1 1 d 
-. 1 1 1 1 1 1 1 1 1 d . 
-. . d d d d d d d d . . 
+            case "tile_1":return img`
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d c c d d d d d d b 
+1 d d d d d d c c d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d c c d d d d d d b 
+1 d d d d d d c c d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+b b b b b b b b b b b b b b b b 
 `;
             case "image2":
-            case "tile_10_1":return img`
-. . 1 1 1 1 1 1 1 1 . . 
-. 1 d d d d d d d d 1 . 
-1 d d d d d d d d d d b 
-1 d d d d d d d d d d b 
-1 d d d d d d d d d d b 
-1 d d d d d d d d d d b 
-1 d d d d d d d d d d b 
-1 d d d d d d d d d d b 
-1 d d d d d d d d d d b 
-1 d d d d d d d d d d b 
-. b d d d d d d d d b . 
-. . b b b b b b b b . . 
+            case "tile_2":return img`
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d c c d d c c d d d d b 
+1 d d d d c c d d c c d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d c c d d c c d d d d b 
+1 d d d d c c d d c c d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+b b b b b b b b b b b b b b b b 
 `;
             case "image3":
-            case "tile_10_2":return img`
-. . d d d d d d d d . . 
-. d b b b b b b b b d . 
-d b b b b b b b b b b c 
-d b b b b b b b b b b c 
-d b b b b b b b b b b c 
-d b b b b b b b b b b c 
-d b b b b b b b b b b c 
-d b b b b b b b b b b c 
-d b b b b b b b b b b c 
-d b b b b b b b b b b c 
-. c b b b b b b b b c . 
-. . c c c c c c c c . . 
+            case "tile_3":return img`
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d c c c c c c d d d d b 
+1 d d d d c c c c c c d d d d b 
+1 d d d d c c d d c c d d d d b 
+1 d d d d c c d d c c d d d d b 
+1 d d d d c c c c c c d d d d b 
+1 d d d d c c c c c c d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+b b b b b b b b b b b b b b b b 
 `;
             case "image4":
-            case "tile_10_3":return img`
-. . b b b b b b b b . . 
-. b c c c c c c c c b . 
-b c c c c c c c c c c c 
-b c c c c c c c c c c c 
-b c c c c c c c c c c c 
-b c c c c c c c c c c c 
-b c c c c c c c c c c c 
-b c c c c c c c c c c c 
-b c c c c c c c c c c c 
-b c c c c c c c c c c c 
-. c c c c c c c c c c . 
-. . c c c c c c c c . . 
-`;
-            case "image6":
-            case "tile_10_5":return img`
-. . 9 9 9 9 9 9 9 9 . . 
-. 9 8 8 8 8 8 8 8 8 9 . 
-9 8 8 8 8 8 8 8 8 8 8 8 
-9 8 8 8 8 8 8 8 8 8 8 8 
-9 8 8 8 8 8 8 8 8 8 8 8 
-9 8 8 8 8 8 8 8 8 8 8 8 
-9 8 8 8 8 8 8 8 8 8 8 8 
-9 8 8 8 8 8 8 8 8 8 8 8 
-9 8 8 8 8 8 8 8 8 8 8 8 
-9 8 8 8 8 8 8 8 8 8 8 8 
-. 8 8 8 8 8 8 8 8 8 8 . 
-. . 8 8 8 8 8 8 8 8 . . 
+            case "tile_4":return img`
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d c c c c c c d d d d b 
+1 d d d d c c c c c c d d d d b 
+1 d d d d c c c c c c d d d d b 
+1 d d d d c c c c c c d d d d b 
+1 d d d d c c c c c c d d d d b 
+1 d d d d c c c c c c d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+b b b b b b b b b b b b b b b b 
 `;
             case "image5":
-            case "tile_10_4":return img`
-. . 3 3 3 3 3 3 3 3 . . 
-. 3 a a a a a a a a 3 . 
-3 a a a a a a a a a a a 
-3 a a a a a a a a a a a 
-3 a a a a a a a a a a a 
-3 a a a a a a a a a a a 
-3 a a a a a a a a a a a 
-3 a a a a a a a a a a a 
-3 a a a a a a a a a a a 
-3 a a a a a a a a a a a 
-. a a a a a a a a a a . 
-. . a a a a a a a a . . 
+            case "tile_5":return img`
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c d d c c c c d d b 
+1 d d c c c c d d c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+b b b b b b b b b b b b b b b b 
 `;
             case "image7":
-            case "tile_10_6":return img`
-. . 6 6 6 6 6 6 6 6 . . 
-. 6 6 6 6 6 6 6 6 6 6 . 
-6 6 6 6 6 6 6 6 6 6 6 6 
-6 6 6 6 6 6 6 6 6 6 6 6 
-6 6 6 6 6 6 6 6 6 6 6 6 
-6 6 6 6 6 6 6 6 6 6 6 6 
-6 6 6 6 6 6 6 6 6 6 6 6 
-6 6 6 6 6 6 6 6 6 6 6 6 
-6 6 6 6 6 6 6 6 6 6 6 6 
-6 6 6 6 6 6 6 6 6 6 6 6 
-. 6 6 6 6 6 6 6 6 6 6 . 
-. . 6 6 6 6 6 6 6 6 . . 
+            case "tile_6":return img`
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c d d c c c c d d b 
+1 d d c c c c d d c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c d d c c c c d d b 
+1 d d c c c c d d c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+b b b b b b b b b b b b b b b b 
+`;
+            case "image8":
+            case "tile_7":return img`
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c d d c c d d c c d d b 
+1 d d c c d d c c d d c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c d d c c d d c c d d b 
+1 d d c c d d c c d d c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+b b b b b b b b b b b b b b b b 
+`;
+            case "image9":
+            case "tile_8":return img`
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c d d d d d d c c d d b 
+1 d d c c d d d d d d c c d d b 
+1 d d c c d d c c d d c c d d b 
+1 d d c c d d c c d d c c d d b 
+1 d d c c d d d d d d c c d d b 
+1 d d c c d d d d d d c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+b b b b b b b b b b b b b b b b 
+`;
+            case "image10":
+            case "tile_9":return img`
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c d d d d d d c c d d b 
+1 d d c c d d d d d d c c d d b 
+1 d d c c d d d d d d c c d d b 
+1 d d c c d d d d d d c c d d b 
+1 d d c c d d d d d d c c d d b 
+1 d d c c d d d d d d c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d c c c c c c c c c c d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+b b b b b b b b b b b b b b b b 
+`;
+            case "image11":
+            case "tile_10":return img`
+d 1 1 1 1 1 1 1 1 1 1 1 1 1 1 b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d a a a a a a a a a a d d b 
+1 d d a a a a a a a a a a d d b 
+1 d d a a a a a a a a a a d d b 
+1 d d a a a a a a a a a a d d b 
+1 d d a a a a a a a a a a d d b 
+1 d d a a a a a a a a a a d d b 
+1 d d a a a a a a a a a a d d b 
+1 d d a a a a a a a a a a d d b 
+1 d d a a a a a a a a a a d d b 
+1 d d a a a a a a a a a a d d b 
+1 d d d d d d d d d d d d d d b 
+1 d d d d d d d d d d d d d d b 
+b b b b b b b b b b b b b b b b 
 `;
         }
         return null;
