@@ -5,17 +5,6 @@ namespace myTiles {
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "level2":
-            case "level2":return tiles.createTilemap(hex`0a0008000b0f100b0b0b0b100f0b0b10010202030204100b0b0b0900000000050b0b0b0b0a00000000050b0b0b0b0900000000050b0b0b0b0900000000050b0b0b10080707070706100d0b0f100b0b0b0b100e0c`, img`
-. . . . . . . . . . 
-. . 2 2 2 2 2 2 . . 
-. . 2 . . . . 2 . . 
-. . 2 . . . . 2 . . 
-. . 2 . . . . 2 . . 
-. . 2 . . . . 2 . . 
-. . 2 2 2 2 2 2 . . 
-. . . . . . . . . . 
-`, [myTiles.transparency16,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorth1,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterWest0,sprites.dungeon.greenOuterWest1,sprites.dungeon.floorDark2,sprites.dungeon.floorDark3,sprites.dungeon.floorDark5,sprites.dungeon.floorDark1,sprites.dungeon.floorDark0,sprites.dungeon.floorDarkDiamond], TileScale.Sixteen);
             case "level1":
             case "level1":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
 . . . . . . . . . . . . . . . . 
@@ -35,6 +24,17 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16], TileScale.Sixteen);
+            case "level2":
+            case "level2":return tiles.createTilemap(hex`0a000800040302020202020203040402050e0e0d0e06020404020b0000000010020404120c0000000010020404020b000000000f110404020b00000000100204040207090a090908020404030202020202020104`, img`
+. . . . . . . . . . 
+. . 2 2 2 2 2 2 . . 
+. . 2 . . . . 2 . . 
+. . 2 . . . . 2 . . 
+. . 2 . . . . 2 . . 
+. . 2 . . . . 2 . . 
+. . 2 2 2 2 2 2 . . 
+. . . . . . . . . . 
+`, [myTiles.transparency16,sprites.dungeon.floorDark3,sprites.dungeon.floorDark0,sprites.dungeon.floorDarkDiamond,sprites.dungeon.darkGroundCenter,sprites.dungeon.purpleOuterNorthWest,sprites.dungeon.purpleOuterNorthEast,sprites.dungeon.purpleOuterSouthEast,sprites.dungeon.purpleOuterSouthWest,sprites.dungeon.purpleOuterSouth1,sprites.dungeon.purpleOuterSouth0,sprites.dungeon.purpleOuterWest0,sprites.dungeon.purpleOuterWest1,sprites.dungeon.purpleOuterNorth1,sprites.dungeon.purpleOuterNorth0,sprites.dungeon.purpleOuterEast0,sprites.dungeon.purpleOuterEast1,sprites.dungeon.floorDark1,sprites.dungeon.floorDark4], TileScale.Sixteen);
         }
         return null;
     })
